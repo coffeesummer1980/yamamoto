@@ -126,39 +126,3 @@ h1, h2, h3, h4 {
   .section { padding: var(--spacing-lg) 0; }
   .section-title { font-size: 1.5rem; }
 }
-
-/* Blog Prose Styles */
-.prose h2 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: var(--color-primary-dark);
-  border-bottom: 2px solid #eee;
-  padding-bottom: 0.5rem;
-}
-
-.prose h3 {
-  font-size: 1.25rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  color: var(--color-text);
-}
-
-.prose p {
-  margin-bottom: 1.5rem;
-}
-
-.prose ul, .prose ol {
-  margin-bottom: 1.5rem;
-  padding-left: 20px;
-}
-
-.prose li {
-  margin-bottom: 0.5rem;
-}
-
-.prose img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin: 20px 0;
-}

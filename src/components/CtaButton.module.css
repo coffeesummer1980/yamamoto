@@ -1,0 +1,56 @@
+.floatingContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    animation: fadeIn 1s ease-out;
+}
+
+.lineButton {
+    background-color: #06C755;
+    /* LINE Green */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 199, 85, 0.4);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 1rem;
+}
+
+.lineButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 199, 85, 0.5);
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile full width option? Prompts says "目立つ位置に固定". 
+   For mom-target, bottom fixed bar works well on mobile. 
+   Let's keep it floating for now but larger on mobile? 
+*/
+
+@media (max-width: 768px) {
+    .floatingContainer {
+        right: 16px;
+        bottom: 16px;
+    }
+}

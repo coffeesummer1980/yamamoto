@@ -1,0 +1,83 @@
+.header {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    padding: 10px 0;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.logo a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 0.8rem;
+    background: var(--color-primary);
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+}
+
+.nav a {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--color-text);
+}
+
+.nav a:hover {
+    color: var(--color-primary);
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        /* simple hide for now, would need JS state for toggle */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        align-items: center;
+    }
+
+    .nav.open {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
