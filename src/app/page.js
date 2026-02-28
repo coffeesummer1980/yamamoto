@@ -111,7 +111,7 @@ export default function Home() {
           </div>
           <div style={{ background: '#FFF5F5', padding: '15px', borderRadius: '8px', border: '1px solid #F2C4C4' }}>
             <h4 style={{ color: '#D16D6D', marginBottom: '5px' }}>👶 産後ママ応援特典</h4>
-            <p style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>産後6ヶ月までのお子様をお持ちのママは、対象コースが <span style={{ fontSize: '1.1rem', color: 'red' }}>6,000円引き</span>！</p>
+            <p style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>産後6ヶ月までのお子様をお持ちのママは、アフターケアコースが <span style={{ fontSize: '1.1rem', color: 'red' }}>6,000円引き</span>！</p>
             <p style={{ fontSize: '0.8rem', color: '#666' }}>※こつばん調整受け放題コース等の月定額プランが対象です。</p>
           </div>
           <div className="text-center" style={{ marginTop: '20px' }}>

@@ -26,18 +26,18 @@ export default function ServicesPage() {
 
                         <div style={{ background: '#FFF5F5', padding: '15px', borderRadius: '8px', marginBottom: '20px' }}>
                             <h4 style={{ color: '#D16D6D', marginBottom: '5px' }}>👶 産後ママ応援特典</h4>
-                            <p style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>産後6ヶ月までのお子様をお持ちのママは <span style={{ fontSize: '1.2rem', color: 'red' }}>6,000円引き</span>！</p>
+                            <p style={{ fontSize: '0.9rem', fontWeight: 'bold' }}>産後6ヶ月までのお子様をお持ちのママは<br /><span style={{ color: '#D16D6D' }}>アフターケアコースが</span> <span style={{ fontSize: '1.2rem', color: 'red' }}>6,000円引き</span>！</p>
                         </div>
 
                         <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                             <tbody>
                                 <tr style={{ borderBottom: '1px solid #eee' }}>
                                     <th style={{ textAlign: 'left', padding: '15px 0', color: '#666' }}>スタンダードコース</th>
-                                    <td style={{ textAlign: 'right', padding: '15px 0', fontWeight: 'bold', fontSize: '1.2rem' }}>17,800円/月</td>
+                                    <td style={{ textAlign: 'right', padding: '15px 0', fontWeight: 'bold', fontSize: '1.2rem' }}>18,800円/月</td>
                                 </tr>
                                 <tr>
                                     <th style={{ textAlign: 'left', padding: '15px 0', color: '#666' }}>アフターケアコース<br /><span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}>（骨盤サポートパンツ付）</span></th>
-                                    <td style={{ textAlign: 'right', padding: '15px 0', fontWeight: 'bold', fontSize: '1.2rem' }}>31,600円/月</td>
+                                    <td style={{ textAlign: 'right', padding: '15px 0', fontWeight: 'bold', fontSize: '1.2rem' }}>32,600円/月</td>
                                 </tr>
                             </tbody>
                         </table>
