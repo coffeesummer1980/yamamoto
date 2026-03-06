@@ -49,7 +49,7 @@ export default function FirstVisitPage() {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginBottom: '40px' }}>
                         <div className="card">
                             <h4 style={{ marginBottom: '10px', color: '#4A4A4A' }}>Q. どのような服装で行けばいいですか？</h4>
-                            <p style={{ color: '#666' }}>A. 動きやすい服装（ジャージやスウェットなど）がおすすめです。スカートや硬いデニムはお控えください。</p>
+                            <p style={{ color: '#666' }}>A. 動きやすい服装（ジャージやスウェットなど）がおすすめです。お着替えのご用意はございませんので、必要な場合はご持参ください（院内にある試着室でお着替えいただけます）。</p>
                         </div>
                         <div className="card">
                             <h4 style={{ marginBottom: '10px', color: '#4A4A4A' }}>Q. 子供を連れて行っても大丈夫ですか？</h4>
