@@ -31,11 +31,32 @@ export default function ContactPage() {
                             boxShadow: '0 4px 10px rgba(6, 199, 85, 0.3)',
                             textDecoration: 'none'
                         }}>
-                            LINE公式アカウントを友だち追加
+                            LINEで友だち追加する
                         </a>
-                        <div style={{ marginTop: '30px', color: '#888' }}>
-                            【ここにLINEのQRコード画像を配置】
+                        <div style={{ marginTop: '30px' }}>
+                            <img src="/images/line.jpg" alt="LINE QRコード" style={{ display: 'block', margin: '0 auto', maxWidth: '200px', width: '100%', height: 'auto', borderRadius: '8px' }} />
                         </div>
+                    </div>
+
+                    <div className="card" style={{ marginBottom: '40px' }}>
+                        <h3 style={{ marginBottom: '20px' }}>InstagramのDMでのお問い合わせ</h3>
+                        <p style={{ color: '#666', marginBottom: '30px' }}>
+                            Instagramのダイレクトメッセージ（DM）からもご予約・ご相談を受け付けております。<br />
+                            「ホームページを見て予約したい」とお伝えください。
+                        </p>
+                        <a href="https://www.instagram.com/chiro_takahiro/" target="_blank" rel="noopener noreferrer" style={{
+                            display: 'inline-block',
+                            background: '#E1306C',
+                            color: 'white',
+                            fontSize: '1.2rem',
+                            fontWeight: 'bold',
+                            padding: '15px 40px',
+                            borderRadius: '50px',
+                            boxShadow: '0 4px 10px rgba(225, 48, 108, 0.3)',
+                            textDecoration: 'none'
+                        }}>
+                            Instagramを開いてDMする
+                        </a>
                     </div>
 
                     <div className="card" style={{ marginBottom: '40px' }}>
@@ -48,29 +69,6 @@ export default function ContactPage() {
                             「ホームページを見て予約したい」とお伝えください。<br />
                             施術中は電話に出られないことがございます。ご了承ください。
                         </p>
-                    </div>
-
-                    <h3 style={{ marginBottom: '20px' }}>メールでのお問い合わせ</h3>
-                    <p style={{ marginBottom: '20px', fontSize: '0.9rem', color: '#666' }}>
-                        ※お急ぎの方はLINEをご利用ください。
-                    </p>
-                    <div className="card" style={{ textAlign: 'left' }}>
-                        {/* Dummy Form */}
-                        <div style={{ marginBottom: '20px' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>お名前 <span style={{ color: 'red' }}>*</span></label>
-                            <input type="text" style={{ width: '100%', padding: '10px', border: '1px solid #ddd', borderRadius: '4px' }} placeholder="例：山田 花子" />
-                        </div>
-                        <div style={{ marginBottom: '20px' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>メールアドレス <span style={{ color: 'red' }}>*</span></label>
-                            <input type="email" style={{ width: '100%', padding: '10px', border: '1px solid #ddd', borderRadius: '4px' }} placeholder="例：hanako@example.com" />
-                        </div>
-                        <div style={{ marginBottom: '20px' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>お問い合わせ内容 <span style={{ color: 'red' }}>*</span></label>
-                            <textarea style={{ width: '100%', padding: '10px', border: '1px solid #ddd', borderRadius: '4px', minHeight: '150px' }} placeholder="ご質問やご希望の日時などをご記入ください"></textarea>
-                        </div>
-                        <div style={{ textAlign: 'center' }}>
-                            <button className="btn" style={{ border: 'none', cursor: 'pointer' }}>送信する（ダミー）</button>
-                        </div>
                     </div>
                 </div>
             </Section>

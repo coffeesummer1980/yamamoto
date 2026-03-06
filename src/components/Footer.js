@@ -11,6 +11,11 @@ export default function Footer() {
                         <p>〒682-0018 鳥取県倉吉市福庭町1丁目101 伊藤ビル1F</p>
                         <p>TEL: 080-5620-8275</p>
                         <p>営業時間: 8:30〜20:00 / 定休日: 日・祝</p>
+                        <p style={{ marginTop: '10px' }}>
+                            <a href="https://www.instagram.com/chiro_takahiro/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)', textDecoration: 'none', fontWeight: 'bold' }}>
+                                Instagramはこちら
+                            </a>
+                        </p>
                     </div>
                 </div>
                 <div className={styles.links}>
