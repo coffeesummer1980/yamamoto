@@ -22,9 +22,6 @@ export default function ReviewsPage() {
                         </p>
                     </div>
                 ))}
-                <div style={{ textAlign: 'center', color: '#888', marginTop: '20px' }}>
-                    【今後、Instagramの投稿や手書きアンケートの画像を掲載予定】
-                </div>
             </div>
         </Section>
     );
