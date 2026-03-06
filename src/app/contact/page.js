@@ -20,7 +20,7 @@ export default function ContactPage() {
                             「ホームページを見て、予約したいのですが…」とメッセージを送ってください。<br />
                             ご相談だけでも大歓迎です。
                         </p>
-                        <a href="#" style={{
+                        <a href="https://line.me/ti/p/hRQI4_e09g" target="_blank" rel="noopener noreferrer" style={{
                             display: 'inline-block',
                             background: '#06C755',
                             color: 'white',

@@ -29,7 +29,7 @@ export default function AccessPage() {
                             <div>080-5620-8275</div>
 
                             <div style={{ fontWeight: 'bold', color: '#8EB8B8' }}>駐車場</div>
-                            <div>あり</div>
+                            <div>2台あり</div>
 
                             <div style={{ fontWeight: 'bold', color: '#8EB8B8' }}>アクセス</div>
                             <div>
